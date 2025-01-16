@@ -36,6 +36,5 @@ public class MenuItem {
         this.menuName = _menuName;
         this.menuPrice = _menuPrice;
         this.menuDescription = _menuDescription;
-
     }
 }
