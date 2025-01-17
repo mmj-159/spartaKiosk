@@ -21,7 +21,7 @@ public class Menu {
 
     // 출력 담당
     public void printMenu(){
-        System.out.println("["+categoryName+"  메뉴]");
+        System.out.println("["+getCategoryName()+"  메뉴]");
         for (int i = 0; i < listItems.size(); i++) {
             // List 에서 i 번째의 객체(값)를 가져옴
             MenuItem item = listItems.get(i);

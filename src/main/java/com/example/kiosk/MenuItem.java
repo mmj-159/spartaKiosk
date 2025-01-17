@@ -18,23 +18,23 @@ public class MenuItem {
 
 
     // get, set
-    public void setMenuName(String menuName) {
-        this.menuName = menuName;
-    }
+//    public void setMenuName(String menuName) {
+//        this.menuName = menuName;
+//    }
 
     public double getMenuPrice() {
         return menuPrice;
     }
 
-    public void setMenuPrice(double menuPrice) {
-        this.menuPrice = menuPrice;
-    }
+//    public void setMenuPrice(double menuPrice) {
+//        this.menuPrice = menuPrice;
+//    }
 
     public String getMenuDescription() {
         return menuDescription;
     }
 
-    public void setMenuDescription(String menuDescription) {
-        this.menuDescription = menuDescription;
-    }
+//    public void setMenuDescription(String menuDescription) {
+//        this.menuDescription = menuDescription;
+//    }
 }
