@@ -12,6 +12,15 @@ public class MenuItem {
         return menuName;
     }
 
+    // 생성자
+    public MenuItem(String _menuName, double _menuPrice, String _menuDescription){
+        this.menuName = _menuName;
+        this.menuPrice = _menuPrice;
+        this.menuDescription = _menuDescription;
+    }
+
+
+    // get, set
     public void setMenuName(String menuName) {
         this.menuName = menuName;
     }
@@ -30,11 +39,5 @@ public class MenuItem {
 
     public void setMenuDescription(String menuDescription) {
         this.menuDescription = menuDescription;
-    }
-
-    public MenuItem(String _menuName, double _menuPrice, String _menuDescription){
-        this.menuName = _menuName;
-        this.menuPrice = _menuPrice;
-        this.menuDescription = _menuDescription;
     }
 }
