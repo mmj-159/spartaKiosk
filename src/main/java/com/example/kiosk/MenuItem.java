@@ -1,8 +1,5 @@
 package com.example.kiosk;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MenuItem {
     private String menuName;
     private double menuPrice;
