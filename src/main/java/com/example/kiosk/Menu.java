@@ -23,13 +23,12 @@ public class Menu {
     public void printMenu(){
         System.out.println("["+getCategoryName()+"  메뉴]");
         for (int i = 0; i < listItems.size(); i++) {
+
             // List 에서 i 번째의 객체(값)를 가져옴
             MenuItem item = listItems.get(i);
+
             // i 는 0번째 부터 시작하므로 1 증가 시켜줌
-            System.out.println((i+1) + ". " +
-                    item.getMenuName() +
-                    " |  W " + item.getMenuPrice() +
-                    "|  " + item.getMenuDescription());
+            System.out.println((i+1) + ". " + item.getMenuName() + " |  W " + item.getMenuPrice() + "|  " + item.getMenuDescription());
         }
         System.out.println("0. 종료      | 종료");
     }

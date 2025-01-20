@@ -15,7 +15,6 @@ public class MenuItem {
     }
 
     // getter
-
     public String getMenuName() {
         return menuName;
     }

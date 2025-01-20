@@ -2,7 +2,7 @@ package com.example.kiosk;
 
 public class Main {
     public static void main(String[] args) {
-
+        //카테고리 추가
         Menu burgerMenu = new Menu("버거");
         // 메뉴 추가
         burgerMenu.addItem(new MenuItem("ShackBurger", 6.9,"토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
