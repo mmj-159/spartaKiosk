@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Kiosk {
 
-    // Kiosk는 특정 Menu를 관리합니다.
+    // Kiosk는 특정 Menu를 관리
     private Menu menu;
 
     // 생성자
@@ -17,6 +17,7 @@ public class Kiosk {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
+            //Menu 클래스의 printMenu 메서드를 씀
             menu.printMenu();
 
             int choice = sc.nextInt();

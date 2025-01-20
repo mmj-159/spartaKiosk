@@ -33,7 +33,8 @@ public class Menu {
         }
         System.out.println("0. 종료      | 종료");
     }
-    // 메뉴 크기 반환
+
+    // 메뉴 크기(개수) 반환
     public int getSize() {
         return listItems.size();
     }
